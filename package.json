@@ -1,4 +1,7 @@
 {
+  "bin": {
+    "face-detectify": "bin/face-detectify.js"
+  },
   "name": "face-detectify",
   "description": "Detect faces in images. Without native modules.",
   "keywords": [
@@ -13,7 +16,7 @@
     "modules"
   ],
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -41,5 +44,11 @@
   },
   "bugs": {
     "url": "https://github.com/IonicaBizau/face-detectify/issues"
+  },
+  "dependencies": {
+    "noop6": "^1.0.7",
+    "tilda": "^4.4.12",
+    "tracking": "^1.1.3",
+    "get-pixels": "^3.3.0"
   }
 }

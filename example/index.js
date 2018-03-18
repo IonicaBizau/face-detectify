@@ -1,5 +1,8 @@
 "use strict";
 
-const faceDetectify = require("../lib");
+const FaceDetectify = require("../lib");
 
-console.log(faceDetectify());
+FaceDetectify.fromFile(`${__dirname}/example.jpg`).then(res => {
+    console.log(res)
+    // => { data: [ { total: 1, width: 39, height: 39, x: 1038, y: 0 } ] }
+}).catch(console.error)
