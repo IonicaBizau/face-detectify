@@ -7,7 +7,7 @@
 
  [![Support me on Patreon][badge_patreon]][patreon] [![Buy me a book][badge_amazon]][amazon] [![PayPal][badge_paypal_donate]][paypal-donations] [![Ask me anything](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/face-detectify.svg)](https://www.npmjs.com/package/face-detectify) [![Downloads](https://img.shields.io/npm/dt/face-detectify.svg)](https://www.npmjs.com/package/face-detectify)
 
-> Detect faces in images. Without native modules.
+> Detect faces in images. Without native modules. It uses tracking.js.
 
 ## :cloud: Installation
 
