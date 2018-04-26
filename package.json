@@ -1,9 +1,6 @@
 {
-  "bin": {
-    "face-detectify": "bin/face-detectify.js"
-  },
   "name": "face-detectify",
-  "description": "Detect faces in images. Without native modules.",
+  "description": "Detect faces in images. Without native modules. It uses tracking.js.",
   "keywords": [
     "face",
     "detectify",
@@ -16,7 +13,7 @@
     "modules"
   ],
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -50,5 +47,8 @@
     "tilda": "^4.4.12",
     "tracking": "^1.1.3",
     "get-pixels": "^3.3.0"
+  },
+  "blah": {
+    "h_img": "https://i.imgur.com/o7pVHIv.png"
   }
 }
